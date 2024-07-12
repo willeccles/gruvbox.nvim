@@ -1233,7 +1233,7 @@ Gruvbox.load = function()
   vim.g.colors_name = "gruvbox"
   vim.o.termguicolors = true
 
-  local groups = get_groups()
+  local groups = Gruvbox.get_groups()
 
   -- add highlights
   for group, settings in pairs(groups) do
